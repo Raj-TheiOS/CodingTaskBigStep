@@ -134,13 +134,13 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		8BCB751528350D1C005DB659 /* Gernerics */ = {
+		8BCB751528350D1C005DB659 /* Generics */ = {
 			isa = PBXGroup;
 			children = (
 				8BCB751628350D34005DB659 /* GenericTableView.swift */,
 				8BCB751828350D4E005DB659 /* ReusableCell.swift */,
 			);
-			path = Gernerics;
+			path = Generics;
 			sourceTree = "<group>";
 		};
 		BCB8794227FABE45009C2C6B /* Model */ = {
@@ -202,7 +202,7 @@
 		D16F06D1248E8AA8006DA905 /* CodingExercise */ = {
 			isa = PBXGroup;
 			children = (
-				8BCB751528350D1C005DB659 /* Gernerics */,
+				8BCB751528350D1C005DB659 /* Generics */,
 				8BCB75122835042D005DB659 /* ViewModel */,
 				BCB8794527FABE89009C2C6B /* APIManager */,
 				BCB8794227FABE45009C2C6B /* Model */,
