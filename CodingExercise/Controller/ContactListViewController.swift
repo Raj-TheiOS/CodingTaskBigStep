@@ -24,6 +24,7 @@ class ContactListViewController: UIViewController {
 
     let viewmodel = ContactsViewModel()
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -36,12 +37,20 @@ class ContactListViewController: UIViewController {
         view.addSubview(tableView)
         tableView.frame = view.bounds
         
-        viewmodel.GetDataFromJson() { cities in
+        DispatchQueue.main.async {
+            let apiManager = ContactRepository()
+            apiManager.GetDataFromJson { cities in
+                DispatchQueue.main.async {
+                    self.setUpTableCell(contacts: cities)
+                }
+            }
+        }
+    /*     viewmodel.GetDataFromJson() { cities in
             //Loading Datasource and refreshing tableview
             DispatchQueue.main.async {
             self.setUpTableCell(contacts: cities)
             }
-        }
+        } */
     }
 
     // MARK:- loading cities data in table cell

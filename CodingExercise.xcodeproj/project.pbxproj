@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		329C9FFD6A9FAAFF858FF6C8 /* Pods_CodingExercise_CodingExerciseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590B28DFF40738E7965E71A4 /* Pods_CodingExercise_CodingExerciseUITests.framework */; };
 		344A7296A75A4DEBDD83C592 /* Pods_CodingExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58674BC013858A670D1AC975 /* Pods_CodingExercise.framework */; };
+		8B57153C2837801500014141 /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57153B2837801500014141 /* ContactRepository.swift */; };
 		8BCB751128350366005DB659 /* ContactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB751028350366005DB659 /* ContactsModel.swift */; };
 		8BCB751428350441005DB659 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB751328350441005DB659 /* ContactsViewModel.swift */; };
 		8BCB751728350D34005DB659 /* GenericTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB751628350D34005DB659 /* GenericTableView.swift */; };
@@ -49,6 +50,7 @@
 		58674BC013858A670D1AC975 /* Pods_CodingExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodingExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		590B28DFF40738E7965E71A4 /* Pods_CodingExercise_CodingExerciseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodingExercise_CodingExerciseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D7535D75DFBA11575BBE1B /* Pods_CodingExerciseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodingExerciseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B57153B2837801500014141 /* ContactRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRepository.swift; sourceTree = "<group>"; };
 		8BCB751028350366005DB659 /* ContactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsModel.swift; sourceTree = "<group>"; };
 		8BCB751328350441005DB659 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
 		8BCB751628350D34005DB659 /* GenericTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableView.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				D15547BA248EB50500CE158D /* ContantAPIClient.swift */,
+				8B57153B2837801500014141 /* ContactRepository.swift */,
 			);
 			path = APIManager;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 				D16F06D7248E8AA8006DA905 /* ContactListViewController.swift in Sources */,
 				D16F06D3248E8AA8006DA905 /* AppDelegate.swift in Sources */,
 				8BCB751928350D4E005DB659 /* ReusableCell.swift in Sources */,
+				8B57153C2837801500014141 /* ContactRepository.swift in Sources */,
 				D16F06D5248E8AA8006DA905 /* SceneDelegate.swift in Sources */,
 				8BCB751728350D34005DB659 /* GenericTableView.swift in Sources */,
 				8BCB751128350366005DB659 /* ContactsModel.swift in Sources */,
